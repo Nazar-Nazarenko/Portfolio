@@ -219,39 +219,6 @@ iframe {
     margin-bottom: -20px;
 }
 
-.props-overlay {
-    display: none;
-    width: 100%;
-    min-height: 100vh;
-    height: 1500px;
-    background: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    z-index: 20;
-    top: 0;
-}
-
-.props-overlay i {
-    position: absolute;
-    z-index: 40;
-    right: 22%;
-    top: 12px;
-}
-
-.props-overlay img {
-    position: absolute;
-    z-index: 30;
-    width: 800px;
-    max-width: 80%;
-    min-height: 96%;
-    height: 1460px;
-    top: 30px;
-    right: 25%;
-}
-.fa-close {
-    color: white;
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 600px) {
     .first-name {
         margin-top: -8px;
@@ -328,21 +295,6 @@ iframe {
     }
     .portfolio .title {
         font-size: 28px;
-    }
-    .props-overlay img {
-        width: 340px;
-        max-width: 80%;
-        right: 9%;
-        height: 400px;
-    }
-    .props-overlay {
-        background: none;
-        height: 400px;
-        margin-top: 15rem;
-    }
-    .props-overlay i {
-        right: 7%;
-        top: 3px;
     }
 }
 
@@ -423,21 +375,6 @@ iframe {
     .portfolio .title {
         font-size: 28px;
     }
-    .props-overlay img {
-        width: 540px;
-        max-width: 80%;
-        right: 15%;
-        height: 800px;
-    }
-    .props-overlay {
-        background: none;
-        height: 800px;
-        margin-top: 15rem;
-    }
-    .props-overlay i {
-        right: 17%;
-        top: 0;
-    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
@@ -481,17 +418,6 @@ iframe {
         width: 840px;
         max-width: 100%;
         margin-top: 0;
-    }
-    .props-overlay img {
-        width: 840px;
-        max-width: 80%;
-        right: 18%;
-        height: 800px;
-    }
-    .props-overlay {
-        background: none;
-        height: 800px;
-        margin-top: 15rem;
     }
     .cards {
         flex-direction: column;

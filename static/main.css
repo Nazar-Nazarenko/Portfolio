@@ -9,7 +9,7 @@ body {
 
 .container {
     width: 1450px;
-    max-width: 100%;
+    max-width: calc(100% - 30px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +182,7 @@ body {
 }
 .card {
     margin: 10px;
-    width: 463px;
+    width: 433px;
     height: 350px;
     position: relative;
     border-radius: 26px;
